@@ -6,16 +6,15 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-const questionAnswer = function() {
-
-};
-
 rl.question('What is your name? Nicknames are also acceptable! ', (name) => {
-  // TODO: Log the answer in a database
+  rl.question('What is your superpower? ', (superpower) => {
+    rl.question("shfksad", (asd) => {
 
-  rl.question('What is your superpower? ', (superpower))
-  // console.log(`My name is ${name}`);
-  rl.pause(); // terminates the session.
+    });
+
+  });
+  console.log(`My name is ${name} an`);
+  rl.close(); // terminates the session.
 });
 
 // rl.question('What do you think of Node.js? ', (answer) => {
